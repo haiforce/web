@@ -15,6 +15,7 @@ export const mutations = {
 }
 export const actions = {
   nuxtServerInit(store, context) {
+    let a = 1
     this.$cms = context.store.$cms
   },
   set({ commit }, { resource, slug }) {
